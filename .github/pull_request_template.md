@@ -9,21 +9,21 @@ Fixes # (issue)
 Did I fill in the `tool.llamahub` section in the `pyproject.toml` and provide a detailed README.md for my new integration or package?
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 ## Version Bump?
 
 Did I bump the version in the `pyproject.toml` file of the package I am updating? (Except for the `llama-index-core` package)
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 ## Type of Change
 
 Please delete options that are not relevant.
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
+- [x] Bug fix (non-breaking change which fixes an issue)
+- [x] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
@@ -31,7 +31,7 @@ Please delete options that are not relevant.
 
 Your pull-request will likely not be merged unless it is covered by some form of impactful unit testing.
 
-- [ ] I added new unit tests to cover this change
+- [x] I added new unit tests to cover this change
 - [ ] I believe this change is already covered by existing unit tests
 
 ## Suggested Checklist:

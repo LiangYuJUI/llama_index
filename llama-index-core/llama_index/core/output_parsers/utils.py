@@ -40,6 +40,7 @@ def parse_json_markdown(text: str) -> Any:
         text = text.split("```json")[1].strip().strip("```").strip()
 
     json_string = _marshal_llm_to_json(text)
+    json_string = json_string.replace("{{", "{").replace("}}", "}")
 
     try:
         json_obj = json.loads(json_string)
